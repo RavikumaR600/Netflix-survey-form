@@ -1,0 +1,45 @@
+body{
+  background-image:url("https://help.nflxext.com/43e0db2f-fea0-4308-bfb9-09f2a88f6ee4_what_is_netflix_1_en.png")
+
+}
+    #survey{
+   position:absolute;
+      top:0;
+      left:0;
+      margin:none;
+      padding:none;
+      background-color:rbg(0,0,0,0.5);
+}
+.form-inner{
+  padding-top:3em;
+}
+#title{
+  text-align:center;
+  font-size:50px;
+}
+survey-form{
+  width:31em;
+  height:860px;
+  background-color:red;
+  margin:auto;
+  margin-top:4em;
+}
+#name ,#email ,#number, #dropdown{
+  margin-left:5em;
+  margin-top:1em;
+  height:34px;
+  border:none;
+  width:26em;
+}
+#name-label, #email-label, #number-label, #dropdown-label, #select-label{
+  margin-left:4em;
+  
+}
+.space{
+  margin-top:30px;
+  
+}
+.space-sec{
+  margin-top:1em;
+}
+  }
