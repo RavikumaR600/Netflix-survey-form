@@ -1,0 +1,52 @@
+<div class="Survey" >
+  <h1 id="title">NetFlix</h1>
+  <h2 id="discription"> Thankyou for using Netflix.Tell us your suggestions<h2>
+    <form id="survey-form">
+      <div class ="form-inner">
+        <div class="space">
+          <label for="name" id="name-label">Name</label></br>
+        <input type="text" placeholder="Enter your Name" id ="name" required>
+</div>
+      <div class="space">
+          <label for="name" id="number-label">Age</label></br>
+        <input type="number" placeholder="Enter your age" id ="number" min="18" max="70" required>
+</div>
+    <div class="space">
+          <label for="dropdown-label" id="number-label">content type</label></br>
+    <select id="dropdown">
+      <option value="Avengers">Movie</option>
+     <option value="strangerthings">series</option>
+      </select></br>
+</div>
+  <form-group>
+    <label id ='select-label'>Movie</label></br></label>
+</div>
+<label>
+  <div class='space-se'>
+    <input type="checkbox" id ="first-check" name="movie1" value="comedy">Comedy</br>
+  </div>
+<label>
+  
+    <div class='space-se'>
+    <input type="checkbox" id ="second-check" name="movie1" value="action">Action</br>
+  </div>
+<label>
+  
+    <div class='space-se'>
+    <input type="checkbox" id ="third-check" name="movie1" value="romantic">Romantic</br>
+  </div>
+<label>
+  
+    <div class='space-se'>
+    <input type="checkbox" id ="fourth-check" name="movie1" value="animations">Animations</br>
+  </div>
+<label>
+  </form-group>
+<div class="space">
+  <label id ="feedback-label">Feed back </label></br>
+</div>
+<div class="space-sect">
+  <textarea class='text-area' placeholder="comments"></textarea></br>
+</div>
+  <input type="submit" id="submit"
+    </form>
